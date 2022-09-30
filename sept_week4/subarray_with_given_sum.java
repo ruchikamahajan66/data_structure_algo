@@ -1,6 +1,6 @@
 class Solution
 {
-    //Function to find a continuous sub-array which adds up to a given number.
+    //Function to find a continuous sub-Array which adds up to a given number.
     static ArrayList<Integer> subarraySum(int[] a, int n, int k) 
     {
         // Your code here
