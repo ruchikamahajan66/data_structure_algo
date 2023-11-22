@@ -12,5 +12,5 @@ def digitsInFactorial(N):
 
 
 if __name__ == '__main__':
-    N = 8468
+    N =7
     print(digitsInFactorial(N))

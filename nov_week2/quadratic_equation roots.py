@@ -8,7 +8,7 @@ def roots(a, b, c):
     else:
         root1 = (-b + d) / (2 * a)
         root2 = (-b -d) / (2 * a)
-    return int(root1), int(root2) if  root1 > root2 else root2
+    return int(root1), int(root2) if root1 > root2 else root2
 
 def roots_1(a, b, c):
     import math
