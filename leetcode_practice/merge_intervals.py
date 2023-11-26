@@ -24,5 +24,6 @@ def merge_intervals(intervals):
 
 if __name__ == '__main__':
     # intervals = [[2, 3], [4, 5], [6, 7], [8, 9], [1, 10]]
-    intervals = [[1, 4]]
+    intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
+    # intervals = [[1, 4]]
     print(merge_intervals(intervals))
