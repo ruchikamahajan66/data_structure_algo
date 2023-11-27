@@ -41,8 +41,8 @@ def sol2(strs):
 
 
 if __name__ == '__main__':
-    # strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
-    strs = []
+    strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+    # strs = []
     print(sol1(strs))
     print(sol2(strs))
 
