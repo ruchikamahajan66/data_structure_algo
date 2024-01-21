@@ -47,6 +47,11 @@ def sum_of_two_list(test_list1, test_list2):
 
     # printing resultant list
     print("Resultant list is : " + str(res_list))
+def approach4(nums1, nums2, m,n):
+    print(m, len(nums1))
+    for i in range(m, len(nums1)):
+        nums1[i] = nums2[i-m]
+    nums1.sort()
 
 
 if __name__ == '__main__':
@@ -59,4 +64,5 @@ if __name__ == '__main__':
     # approach3_merge(nums1, m, nums2, n)
     test_list1 = [1, 3, 4, 6, 8]
     test_list2 = [4, 5, 6, 2, 10]
-    sum_of_two_list(test_list1, test_list2)
+    # sum_of_two_list(test_list1, test_list2)
+    approach4(nums1, nums2, m,n)
