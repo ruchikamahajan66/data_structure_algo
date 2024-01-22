@@ -44,7 +44,7 @@ nums is sorted in non-decreasing order.
 """
 
 
-def removeDuplicates(nums):
+def remove_duplicates(nums):
     """
     :type nums: List[int]
     :rtype: int
@@ -72,28 +72,27 @@ def removeDuplicates(nums):
     return i
 
 
-def removeDuplicates_approach_2(nums):
+def remove_duplicates_approach_2(nums):
     temp = nums[0]
     i = 1
     j = 1
     while i <= j and j < len(nums):
-        if nums[j]==temp:
-            j = j+1
+        if nums[j] == temp:
+            j = j + 1
         elif nums[j] > temp:
             nums[i] = nums[j]
             temp = nums[j]
-            i = i+1
-            j = j+1
+            i = i + 1
+            j = j + 1
         else:
             return i
-
 
     return i
 
 
 if __name__ == '__main__':
     nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
-    nums = [1, 2]
+    # nums = [1, 2]
     # nums = [1, 1]
-    # print(removeDuplicates(nums))
-    print(removeDuplicates_approach_2(nums))
+    # print(remove_duplicates(nums))
+    print(remove_duplicates_approach_2(nums))
