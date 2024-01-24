@@ -63,12 +63,12 @@ def remove_duplicates(nums):
         elif nums[j] == temp and count < 2:
             nums[i] = nums[j]
             i = i + 1
-            count = count+1
+            count = count + 1
     print(nums)
     return i
 
 
 if __name__ == '__main__':
-    nums = [1,1,1,2,2,3]
-    nums = [0,0,1,1,1,1,2,3,3]
+    # nums = [1, 1, 1, 2, 2, 3]
+    nums = [0, 0, 1, 1, 1, 1, 2, 3, 3]
     print(remove_duplicates(nums))

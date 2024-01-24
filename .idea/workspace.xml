@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589991ff-dcf1-4fcb-aee0-0f319aa4cc92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_duplicates_medium_problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_duplicates_medium_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_duplicates_medium_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_duplicates_medium_problem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
