@@ -31,10 +31,16 @@ def majorityElement(nums):
     :type nums: List[int]
     :rtype: int
     """
-    count = 1
-    majiority_element = nums[0]
+    map = {}
+    for i in range(0, len(nums)):
+        if nums[i] not in map:
+            map[nums[i]] =  1
+        else:
+            map[nums[i]] = map[nums[i]] +1
+        if map[nums[i]] > len(nums)/2:
+            return nums[i]
 
 
 if __name__ == '__main__':
     nums = [2, 2, 1, 1, 1, 2, 2]
-    majorityElement(nums)
+    print(majorityElement(nums))

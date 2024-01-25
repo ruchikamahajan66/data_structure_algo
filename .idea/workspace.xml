@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589991ff-dcf1-4fcb-aee0-0f319aa4cc92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_duplicates_medium_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_duplicates_medium_problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,28 @@
       <recent name="$PROJECT_DIR$/april_week4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.remove_duplicates_medium_problem">
+  <component name="RunManager" selected="Python.majority_element">
+    <configuration name="majority_element" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_structure_algo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="merge_sorted_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="data_structure_algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,34 +154,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="str_in_list_of_str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="data_structure_algo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dec_week4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dec_week4/str_in_list_of_str.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.majority_element" />
         <item itemvalue="Python.remove_duplicates_medium_problem" />
         <item itemvalue="Python.remove_duplicates_from_sorted_array" />
         <item itemvalue="Python.remove_element" />
         <item itemvalue="Python.merge_sorted_array" />
-        <item itemvalue="Python.str_in_list_of_str" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +267,41 @@
           <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_element.py</url>
           <line>76</line>
           <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="223" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
