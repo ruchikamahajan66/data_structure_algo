@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="589991ff-dcf1-4fcb-aee0-0f319aa4cc92" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,41 +266,6 @@
           <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_element.py</url>
           <line>76</line>
           <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="217" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="218" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="219" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="220" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="221" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="222" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/majority_element.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="223" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
