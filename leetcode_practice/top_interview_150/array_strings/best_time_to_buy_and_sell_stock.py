@@ -25,7 +25,7 @@ Constraints:
 """
 
 
-def maxProfit(prices):
+def maxProfit_approach1(prices):
     """
     :type prices: List[int]
     :rtype: int
@@ -43,7 +43,22 @@ def maxProfit(prices):
         return maximum_profit_so_far
 
 
+def maxProfit_approach2(prices):
+    buy = prices[0]
+    maximum_profit = 0
+    for i in range(1, len(prices)):
+        if buy > prices[i]:
+            buy = prices[i]
+        elif prices[i] - buy > maximum_profit:
+            maximum_profit = prices[i] - buy
+    return maximum_profit
+
+
+
+
+
 if __name__ == '__main__':
     prices = [7, 1, 5, 3, 6, 4]
-    prices = [7,6,4,3,1]
-    print(maxProfit(prices))
+    # prices = [7,6,4,3,1]
+    # print(maxProfit_approach1(prices))
+    print(maxProfit_approach2(prices))

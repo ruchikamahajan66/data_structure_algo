@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589991ff-dcf1-4fcb-aee0-0f319aa4cc92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/rotate_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/rotate_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,36 +267,6 @@
           <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/remove_element.py</url>
           <line>76</line>
           <option name="timeStamp" value="204" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="272" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="273" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="274" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="275" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="276" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode_practice/top_interview_150/array_strings/best_time_to_buy_and_sell_stock.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="277" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
