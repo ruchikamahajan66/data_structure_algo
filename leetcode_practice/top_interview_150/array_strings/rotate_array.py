@@ -39,7 +39,9 @@ def rotate_easy_approach(nums, k):
     :type nums: List[int]
     :type k: int
     :rtype: None Do not return anything, modify nums in-place instead.
+    time complexity O(n): space complexity = O(1)
     """
+
     rotated_array = []
     for i in range(0, len(nums)):
         rotated_array.append(nums[-k])
@@ -69,6 +71,10 @@ def reverse(nums, i, j):
 
 
 def rotate_hard_approach(nums, k):
+    """
+    # two pointer approach
+    # time complexity O(n): space complexity = O(1)
+    """
     reverse(nums, 0, len(nums) - k - 1)
     reverse(nums, len(nums) - k, len(nums) - 1)
     reverse(nums, 0, len(nums) - 1)
