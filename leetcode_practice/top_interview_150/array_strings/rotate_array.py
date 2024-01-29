@@ -34,16 +34,39 @@ Could you do it in-place with O(1) extra space?
 """
 
 
-def rotate(nums, k):
+def rotate_easy_approach(nums, k):
     """
     :type nums: List[int]
     :type k: int
     :rtype: None Do not return anything, modify nums in-place instead.
     """
-    print(nums)
+    rotated_array = []
+    for i in range(0, len(nums)):
+        rotated_array.append(nums[-k])
+        k = k - 1
+    return rotated_array
+
+
+def rotate_medium_approach(nums, k):
+    n = len(nums)
+    rotated_array = []
+    for i in range(0, n):
+        rotated_array.append(nums[i])
+    for i in range(0, n):
+        nums[(i + k) % n] = rotated_array[i]
+    return nums
+
+
+def rotate_hard_approach(nums, k):
+    for i in range(0, len(nums)):
+        j = len(nums) - 1
+        nums[i] = nums[j]
+        j = j - 1
 
 
 if __name__ == '__main__':
     nums = [1, 2, 3, 4, 5, 6, 7]
     k = 3
-    print(rotate(nums, k))
+    # print(rotate_easy_approach(nums, k))
+    # print(rotate_medium_approach(nums, k))
+    print(rotate_hard_approach(nums, k))
