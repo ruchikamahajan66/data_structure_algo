@@ -44,7 +44,9 @@ def rotate_easy_approach(nums, k):
     for i in range(0, len(nums)):
         rotated_array.append(nums[-k])
         k = k - 1
-    return rotated_array
+    for i in range(0, len(nums)):
+        nums[i] = rotated_array[i]
+    return nums
 
 
 def rotate_medium_approach(nums, k):
@@ -57,16 +59,25 @@ def rotate_medium_approach(nums, k):
     return nums
 
 
-def rotate_hard_approach(nums, k):
-    for i in range(0, len(nums)):
-        j = len(nums) - 1
+def reverse(nums, i, j):
+    while (i < j):
+        temp = nums[i]
         nums[i] = nums[j]
+        nums[j] = temp
+        i = i + 1
         j = j - 1
+
+
+def rotate_hard_approach(nums, k):
+    reverse(nums, 0, len(nums) - k - 1)
+    reverse(nums, len(nums) - k, len(nums) - 1)
+    reverse(nums, 0, len(nums) - 1)
+    return nums
 
 
 if __name__ == '__main__':
     nums = [1, 2, 3, 4, 5, 6, 7]
     k = 3
-    # print(rotate_easy_approach(nums, k))
-    # print(rotate_medium_approach(nums, k))
+    print(rotate_easy_approach(nums, k))
+    print(rotate_medium_approach(nums, k))
     print(rotate_hard_approach(nums, k))
