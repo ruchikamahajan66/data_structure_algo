@@ -15,5 +15,3 @@ def fun_dec(n):
 if __name__ == '__main__':
     n = 5
     fun_dec(n)
-    print("####################")
-    fun_inc(n)
