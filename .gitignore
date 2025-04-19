@@ -1,3 +1,9 @@
+# System & IDE files
+.DS_Store
+.idea/
 *.db
 *cif
 *json
+
+# Project-specific
+exp_db/
