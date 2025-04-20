@@ -20,9 +20,18 @@ def eucledian_algo(a,b):
 
     return a
 
+def eucledian_optimized_algo(a,b):
+    if b ==0:
+        return a
+    else:
+        return eucledian_optimized_algo(b , a%b)
+
+
+
 
 if __name__ == '__main__':
-    a = 0
-    b = 0
+    a = 4
+    b = 6
     # print("gcd of two numbers are ", gcd(a, b))
-    print("gcd of two numbers are ", eucledian_algo(a,b))
+    # print("gcd of two numbers are ", eucledian_algo(a,b))
+    print("gcd of two numbers are ", eucledian_optimized_algo(a, b))
