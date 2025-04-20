@@ -1,4 +1,9 @@
 """
+Determine the factorial of a given number where number is greater than zero
+"""
+
+
+"""
 iterative solution
 with time complexity = O(n)
 """
@@ -23,7 +28,7 @@ def factorial_of_a_number_recurssion(num, fact):
 
 
 if __name__ == '__main__':
-    number = 5
+    number = 3
     fact = 1
     print("iterative factorial is ",factorial_of_a_number(number, fact))
     print("recursive factorial is ",factorial_of_a_number_recurssion(number, fact))
