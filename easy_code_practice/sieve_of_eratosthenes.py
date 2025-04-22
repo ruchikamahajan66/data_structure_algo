@@ -1,7 +1,7 @@
 def SieveOfEratosthenes(n):
     prime = [True for i in range(n + 1)]
     i = 2
-    while (i * i <= n):
+    while i * i <= n:
         if prime[i]:
             for j in range(i * i, n + 1, i):
                 prime[j] = False
