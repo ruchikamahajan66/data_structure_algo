@@ -3,9 +3,9 @@ def second_largest_element(arr):
     second_largest = -1
     for i in range(0, len(arr)):
         if arr[i]> largest:
-            largest =  arr[i]
+            largest = arr[i]
     for i in range(0, len(arr)):
-        if arr[i]> second_largest and arr[i]!= largest:
+        if arr[i] > second_largest and arr[i]!= largest:
             second_largest = arr[i]
     return second_largest
 
