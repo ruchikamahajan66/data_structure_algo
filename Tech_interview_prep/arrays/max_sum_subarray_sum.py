@@ -46,11 +46,36 @@ def sol3(array):
             curr = 0
     print("max sub array sum is", maxi)
 
+def sum(start, end, arr):
+    sum = 0
+    for i in range(start, end+1):
+        sum = sum + arr[i]
+    return sum
+def soln4(arr):
+    max_sum = float('-inf')
+    for i in range(0, len(arr)):
+        for j in range (i+1, len(arr)):
+            current_sum = sum(i,j, arr)
+            if current_sum> max_sum:
+                max_sum =  current_sum
+    return max_sum
+
+def soln5(arr):
+    res =  arr[0]
+    max_ending = arr[0]
+    for i in range(1, len(arr)):
+        max_ending =  max (max_ending+arr[i], arr[i])
+        res =  max (res, max_ending)
+    return res
+
 
 if __name__ == '__main__':
     array = [2, 3, -8, 7, -1, 2, 3]
+    # array = [1,2, 3]
     max_sum = float('-inf')
     naive_solution(array, max_sum)
     soln1(array, max_sum)
     sol2(array)
     sol3(array)
+    print(soln4(array))
+    print(soln5(array))
