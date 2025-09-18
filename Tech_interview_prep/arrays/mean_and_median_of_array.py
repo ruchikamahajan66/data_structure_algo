@@ -1,6 +1,4 @@
 from numpy import sort
-
-
 def mean(arr):
     sum = 0
     for i in range(0, len(arr)):
@@ -9,12 +7,6 @@ def mean(arr):
     return mean
 
 def median(arr):
-
-    # for i in range(0, len(arr)-1):
-    #     if arr[i] > arr[i+1]:
-    #         temp = arr[i]
-    #         arr[i] = arr[i+1]
-    #         arr[i+1] = temp
     sorted_array =  sort(arr)
 
     if len(sorted_array)%2 ==0:
