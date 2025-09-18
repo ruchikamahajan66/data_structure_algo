@@ -18,7 +18,7 @@ def median(arr):
     sorted_array =  sort(arr)
 
     if len(sorted_array)%2 ==0:
-        median = int((sorted_array[int(len(sorted_array) / 2)] + sorted_array[int(len(sorted_array) / 2) + 1]) / 2)
+        median = int((sorted_array[int(len(sorted_array) / 2)] + sorted_array[int(len(sorted_array) / 2) - 1]) / 2)
     else:
         median =  sorted_array[int(len(sorted_array)/2)]
     return median
@@ -26,5 +26,6 @@ def median(arr):
 
 if __name__ == '__main__':
     arr = [1,2,19,28,5]
+    arr = [2,8,4,3]
     # print(mean(arr))
     print(median(arr))
