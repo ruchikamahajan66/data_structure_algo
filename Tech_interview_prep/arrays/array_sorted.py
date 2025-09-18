@@ -6,11 +6,13 @@ def isSorted(array):
                 return False
         return True
 
+
 def eff_sol(array):
     for i in range(1, len(array)):
-        if arr[i] < arr[i-1]:
+        if arr[i] < arr[i - 1]:
             return False
     return True
+
 
 if __name__ == '__main__':
     arr = [7, 20, 0, 50]
