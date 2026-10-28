@@ -24,7 +24,6 @@ def build_tree(elements):
     for i in range(1, len(elements)):
         root.add_child(elements[i])
     return root
-
 def print_tree(node, level=0, label="Root:"):
     if node is not None:
         print("   " * level + f"{label} {node.data}")
